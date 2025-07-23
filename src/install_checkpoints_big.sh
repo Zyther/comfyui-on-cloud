@@ -22,35 +22,50 @@ wget https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned
 wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors -P ./models/checkpoints/
 
 # realisticVisionV51_v51VAE
-wget https://huggingface.co/frankjoshua/realisticVisionV51_v51VAE/resolve/main/realisticVisionV51_v51VAE.safetensors -P ./models/checkpoints/
+# wget https://huggingface.co/frankjoshua/realisticVisionV51_v51VAE/resolve/main/realisticVisionV51_v51VAE.safetensors -P ./models/checkpoints/
 
 # turbovision xl
 wget https://huggingface.co/akshitapps/TurboVisionXL/resolve/main/turbovisionxlSuperFastXLBasedOnNew_tvxlV431Bakedvae.safetensors -P ./models/checkpoints/
 
 # Absolute Reality 1.8.1
-wget https://huggingface.co/digiplay/AbsoluteReality_v1.8.1/resolve/main/absolutereality_v181.safetensors -P ./models/checkpoints/
+# wget https://huggingface.co/digiplay/AbsoluteReality_v1.8.1/resolve/main/absolutereality_v181.safetensors -P ./models/checkpoints/
 
 
 # Absolute Reality 1.8.1.INPAINTING
-wget https://civitai.com/api/download/models/134084 --content-disposition -P ./models/checkpoints/
+# wget https://civitai.com/api/download/models/134084 --content-disposition -P ./models/checkpoints/
 
 # dreamshaper 8
-wget https://huggingface.co/autismanon/modeldump/resolve/main/dreamshaper_8.safetensors -P ./models/checkpoints/
+# wget https://huggingface.co/autismanon/modeldump/resolve/main/dreamshaper_8.safetensors -P ./models/checkpoints/
 
 # dreamshaper xl
 wget https://civitai.com/api/download/models/251662 --content-disposition -P ./models/checkpoints/
 
 # perfectdeliberate
-wget https://civitai.com/api/download/models/253055 --content-disposition -P ./models/checkpoints/
+wget https://civitai.com/api/download/models/2001227 --content-disposition -P ./models/checkpoints/
+
+# IL Nova
+wget https://civitai.com/api/download/models/1957764 --content-disposition -P ./models/checkpoints/
+
+# Realism SDXL Lightning
+wget https://civitai.com/api/download/models/1928561 --content-disposition -P ./models/checkpoints/
+
+# Perfect Pony Lightning
+wget https://civitai.com/api/download/models/701698 --content-disposition -P ./models/checkpoints/
+
+# Autism Mix
+wget https://civitai.com/api/download/models/379262 --content-disposition -P ./models/checkpoints/
+
+# pornmaster
+wget https://civitai.com/api/download/models/1915737 --content-disposition -P ./models/checkpoints/
 
 #CyberRealistic 4.1
-wget https://civitai.com/api/download/models/256915 --content-disposition -P ./models/checkpoints/
+# wget https://civitai.com/api/download/models/256915 --content-disposition -P ./models/checkpoints/
 
 #CyberRealistic 4.1 inpainting
-wget https://civitai.com/api/download/models/256955 --content-disposition -P ./models/checkpoints/
+# wget https://civitai.com/api/download/models/256955 --content-disposition -P ./models/checkpoints/
 
 # epiCPhotoGasm-X photoreal
-wget https://civitai.com/api/download/models/132632 --content-disposition -P ./models/checkpoints/
+# wget https://civitai.com/api/download/models/132632 --content-disposition -P ./models/checkpoints/
 
 
 #epicrealism naturalSin
@@ -148,5 +163,3 @@ wget https://github.com/ChaoningZhang/MobileSAM/blob/master/weights/mobile_sam.p
 ## SVD related
 
 wget https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/resolve/main/svd_xt.safetensors -P ./models/checkpoints/
-
-
